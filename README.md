@@ -14,23 +14,23 @@ TODO: everything  \
 
 # Some curls \
 \
-A: curl1 - a simple get \
-curl --location --request GET 'localhost:8000' \
+A: curl1 - a simple get  \
+curl --location --request GET 'localhost:8000'  \
 B: curl2 - a post with a particular json pay load
 curl --location --request POST 'localhost:8000/items' \
 --header 'Content-Type: application/json' \
 --data-raw '{ \
-    "name": "Foo", \
-    "description": "An optional description", \ 
-    "price": 45.2, \
-    "tax": 3.5 \
+      "name": "Foo", \
+      "description": "An optional description", \ 
+      "price": 45.2, \
+      "tax": 3.5 \
 }'
 
 # requirements.txt follow
 
-asyncpg==0.20.1 \
-databases[postgresql]==0.2.6 \
-fastapi==0.48.0 \
-SQLAlchemy==1.3.13 \
-uvicorn==0.11.2 \
-httpx==0.11.1 \
+asyncpg==0.20.1  \
+databases[postgresql]==0.2.6  \
+fastapi==0.48.0  \
+SQLAlchemy==1.3.13  \
+uvicorn==0.11.2  \
+httpx==0.11.1
