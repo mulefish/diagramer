@@ -1,16 +1,13 @@
-# diagramer
-
-TODO: everything  \
-  \ 
+# diagramer  
+TODO: everything  
 # setup  \
-  \
 0:  \
 1: python3 -m venv env  \
 2:  source env/bin/activate ( MacOS )  \
 3: pip3 install -r requirements.txt  \
 4: make kittycat.py script  \
 5: uvicorn kittcat:app --reload  \
-6: browser:  \
+6: browser:  
 # Some curls
 
 A: curl1 - a simple get  \
