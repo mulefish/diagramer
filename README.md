@@ -11,8 +11,7 @@ TODO: everything  \
 4: make kittycat.py script  \
 5: uvicorn kittcat:app --reload  \
 6: browser:  \
-  \
-# Some curls  \
+# Some curls
 
 A: curl1 - a simple get  \
 curl --location --request GET 'localhost:8000'  \
@@ -24,9 +23,8 @@ curl --location --request POST 'localhost:8000/items'  \
       "description": "An optional description",  \
       "price": 45.2,  \
       "tax": 3.5  \
-}'  \
-# requirements.txt follow  \
-  \
+}'
+# requirements.txt follow
 asyncpg==0.20.1  \
 databases[postgresql]==0.2.6  \
 fastapi==0.48.0  \
